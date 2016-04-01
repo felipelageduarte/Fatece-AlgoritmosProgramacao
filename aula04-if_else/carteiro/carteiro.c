@@ -4,8 +4,8 @@
 int main(int argc, char *argv[]){
         
     char a; // char -> 1 byte
-    int b;  // int -> 4 bytes
-    char c;
+    int  b; // int  -> 4 bytes
+    char c; // char -> 1 byte
 
     printf("end a: %p\n", &a);
     printf("end b: %p\n", &b);
