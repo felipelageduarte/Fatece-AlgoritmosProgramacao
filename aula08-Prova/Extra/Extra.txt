@@ -1,0 +1,29 @@
+
+PROBLEMA:
+	- Joao olha para Maria
+	- Maria olha para Geraldo
+	- Joao é casado
+	- Geraldo é solteiro
+
+	É possível uma pessoa casada estar olhando para uma pessoa solteira?
+
+--> a) Sim
+	b) Nao
+	c) Nao é possível determinar
+
+RESPOSTA:
+	No problema não existe informação sobre o estado civil de Maria, i.e., não se sabe se ela é casada 
+	ou solteira. Porém existe apenas duas possíbilidade, ou ela é casa ou solteira. 
+	
+	- Maria Casada:
+		Caso Maria seja casada, ela está olhando para Geraldo que é solteiro e a afirmativa está correta, 
+		existe alguem casado olhando para alguem solteiro.
+	- Maria Solteira:	
+		Caso Maria seja solteira, João que é casado está olhando para ela que é solteira. Por tanto, 
+        novamente, a pergunta é confirmada e existe uma pessoa casada olhando para uma pessoa solteira. 
+
+ANALISE:
+	Apesar de parecer um problema "bobo" e sem nexo com a disciplina, este problema demanda a utilização
+	de algumas habilidades pertinentes a um programador. Para solucionar o problema é necessário enxergar 
+	o problema como um todo, tentando analisar todas as possíveis variaveis e que tipicamente não são 
+	fornecidas. Assim, tente sempre analisar todas as possibilidades e cobrir todas as variações.
